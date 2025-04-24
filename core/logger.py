@@ -4,7 +4,7 @@ def save_transaction(is_income, source, amount, data_string):
     else:
         filename = "data/expense.txt"
 
-    line = f"{data_string}| {source}| {amount} сомон"
+    line = f"{data_string} | {source} | {amount} сомон\n"
 
     with open (filename, "a", encoding="utf-8") as file:
         file.write(line)
