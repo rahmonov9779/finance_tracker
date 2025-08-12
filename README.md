@@ -44,3 +44,5 @@ finance_tracker/
 Открой терминал и запусти:
 
 python main.py
+
+![WakaTime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=irahmonov)
